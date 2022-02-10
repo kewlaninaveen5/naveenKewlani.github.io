@@ -1,0 +1,17 @@
+.mytextbox-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.mytextbox {
+    height: 140px;
+    width: 90%;
+    margin: 5px;
+    border: none;
+    background-color: beige;
+    font-family: 'Inconsolata', monospace;
+}
+
+.mytextbox:focus {
+    outline: none;
+}
