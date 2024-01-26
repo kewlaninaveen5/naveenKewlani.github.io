@@ -1,0 +1,13 @@
+.myinput {
+    height: 50px;
+    width: 90%;
+    margin: 12px auto;
+    border: none;
+    background-color: beige;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.myinput:focus {
+    outline: none;
+}

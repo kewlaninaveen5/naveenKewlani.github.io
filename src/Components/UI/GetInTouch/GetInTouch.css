@@ -1,0 +1,91 @@
+.getintouch-container {
+    padding: 40px 0px;
+    height: 260px;
+    background-color: rgba(111,176,199);
+    vertical-align: middle;
+    justify-content: centre;
+
+}
+
+.send-mail {
+    height: 60px;
+    width: 95%;
+    margin: 5px auto;
+    background-color: #fff;
+    /* padding-top: 5px; */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    border: 3px solid #fff;
+    font-size: 20px;
+    color: rgba(111,176,199);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+.getintouch {
+    display: inline-block;
+    width: 40%;
+    /* background-color: #ad3; */
+    margin: 15px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.text {
+    font-family: 'Quintessential', cursive;
+    font-size: 40px;
+    color: white;
+    vertical-align: middle;
+
+}
+
+.form {
+    vertical-align: middle;
+    justify-content: center;
+
+}
+
+.form-name-email {
+    display: inline-block;
+    /* background-color: rgb(212, 134, 134); */
+    margin: 10px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.form-description {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    margin: 10px;
+    /* background-color: rgb(94, 56, 56); */
+}
+
+.send-mail:hover {
+    background-color: rgba(111,176,199);
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .getintouch-container {
+        height: 400px;
+    }
+    .form-name-email,
+    .form-description {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .getintouch {
+        width: 80%;
+    }
+    .getintouch-container {
+        height: 500px;
+    }
+
+}
